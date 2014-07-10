@@ -49,11 +49,16 @@ a {
 .container {
   margin: 0 auto;
   max-width: 55em;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .main {
-  margin: 6em auto 0;
+  margin: 7em auto 0;
+}
+
+.clear {
+  /* Clears the floating area */
+  clear: both;
 }
 
 
@@ -114,7 +119,6 @@ a {
 /* =Footer
 -------------------------------------------------- */
 #footer {
-  clear: both;
   margin: 0 auto;
   padding: 2em;
   text-align: center;
@@ -133,10 +137,6 @@ a {
     float: none;
     margin-top: 1em;
     width: auto;
-  }
-
-  #footer {
-    padding: 1em 0 2em;
   }
 }
 
