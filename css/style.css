@@ -1,0 +1,156 @@
+/* =Body
+-------------------------------------------------- */
+body {
+  background: #d6d6d6;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 1.25em;
+  margin-bottom: .5em;
+}
+
+h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2, p {
+  font-size: .75em;
+}
+
+a {
+  color: #f63a00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* =Header
+-------------------------------------------------- */
+#header-bg {
+  background: url("../images/background.jpg") 3em 0;
+  height: 162px;
+}
+
+#header-logo {
+  background: url("../images/logo.png") no-repeat;
+  height: 213px;
+  left: 50%;
+  margin-left: -108px;
+  position: absolute;
+  top: 1em;
+  width: 216px;
+}
+
+
+/* =Container
+-------------------------------------------------- */
+.container {
+  margin: 0 auto;
+  max-width: 55em;
+  padding: 1em;
+}
+
+.main {
+  margin: 6em auto 0;
+}
+
+
+/* =Blog
+-------------------------------------------------- */
+.content {
+  background: #fff;
+  float: left;
+  margin: 0 auto;
+  padding: 1em;
+  width: 35em;
+}
+
+.post-img img {
+  width: 100%;
+}
+
+.post-meta {
+  border-bottom: 1px solid #222;
+  border-top: 1px dotted #222;
+  margin-bottom: 3em;
+}
+
+.download {
+  text-transform: uppercase;
+}
+
+
+/* =Side
+-------------------------------------------------- */
+.side {
+  background: #fff;
+  float: right;
+  margin: 0 auto;
+  padding: 1em;
+  width: 15em;
+}
+
+.side p {
+  margin: 0;
+}
+
+.side a {
+  color: #222;
+}
+
+.side ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-part, .ad {
+  margin-bottom: 1.5em;
+}
+
+
+/* =Footer
+-------------------------------------------------- */
+#footer {
+  clear: both;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+
+
+/* =Media Queries
+-------------------------------------------------- */
+@media only screen and (max-width: 56em) {
+  .content {
+    float: none;
+    width: auto;
+  }
+
+  .side {
+    float: none;
+    margin-top: 1em;
+    width: auto;
+  }
+
+  #footer {
+    padding: 1em 0 2em;
+  }
+}
+
+@media only screen and (max-width: 35em) {
+  h1 {
+    font-size: 1.45em;
+  }
+
+  h2 {
+    font-size: .95em;
+  }
+
+  p {
+    font-size: .95em;
+  }
+
+}
