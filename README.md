@@ -6,4 +6,4 @@ Code the below design mockup for ECARD.ly's blog. Use newly learned technologies
 [View Demo](http://brandonkwong.com/ga/wdi-exercises/ecard.ly-blog/)
 
 Design Mockup:
-![ECARD.ly Blog Sample Screenshot](ecard_blog_screenshot.png)
+![ECARD.ly Blog Sample Screenshot](ecard-blog-screenshot.png)
